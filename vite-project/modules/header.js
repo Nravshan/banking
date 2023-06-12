@@ -19,8 +19,8 @@ function headerCreater() {
     right_img.onclick = () => location.assign('/')
 
     left_a_1.href = '/'
-    left_a_2.href = '/'
-    left_a_3.href = '/'
+    left_a_2.href = ''
+    left_a_3.href = '/pages/transaction.html'
 
     header_flex.classList.add('header_flex')
     flex_left.classList.add('flex_left')
@@ -39,3 +39,4 @@ function headerCreater() {
         location.reload()
     }
 }
+export default headerCreater
